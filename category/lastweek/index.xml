@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LastWeek | Academic</title>
+    <link>https://example.com/category/lastweek/</link>
+      <atom:link href="https://example.com/category/lastweek/index.xml" rel="self" type="application/rss+xml" />
+    <description>LastWeek</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>LastWeek</title>
+      <link>https://example.com/category/lastweek/</link>
+    </image>
+    
+    <item>
+      <title>My last week</title>
+      <link>https://example.com/post/lastweek1/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/lastweek1/</guid>
+      <description>&lt;h2 id=&#34;bmy-last-weekb&#34;&gt;&lt;b&gt;My last week.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;It&amp;rsquo;s been a very productive week.&lt;/p&gt;
+&lt;p&gt;I went to my hometown, saw my relatives and went to barbecue.&lt;/p&gt;
+&lt;p&gt;I also did a lot of lab work and even had free time to go for a walk during the holidays.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

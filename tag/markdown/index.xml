@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown | Academic</title>
+    <link>https://example.com/tag/markdown/</link>
+      <atom:link href="https://example.com/tag/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Markdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 May 2022 14:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Markdown</title>
+      <link>https://example.com/tag/markdown/</link>
+    </image>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown1/</link>
+      <pubDate>Fri, 13 May 2022 14:30:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown1/</guid>
+      <description>&lt;h2 id=&#34;bmarkdownb&#34;&gt;&lt;b&gt;Markdown&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files.&lt;/p&gt;
+&lt;p&gt;The initial description of Markdown contained ambiguities and raised unanswered questions, causing implementations to both intentionally and accidentally diverge from the original version. This was addressed in 2014, when long-standing Markdown contributors released CommonMark, an unambiguous specification and test suite for Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;bhistoryb&#34;&gt;&lt;b&gt;History&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In 2002 Aaron Swartz created atx, &amp;ldquo;the true structured text format&amp;rdquo;. Swartz and Gruber then worked together to create the Markdown language in 2004, with the goal of enabling people &amp;ldquo;to write using an easy-to-read and easy-to-write plain text format, optionally convert it to structurally valid XHTML (or HTML)&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Its key design goal was readability, that the language be readable as-is, without looking like it has been marked up with tags or formatting instructions unlike text formatted with a markup language, such as Rich Text Format (RTF) or HTML, which have obvious tags and formatting instructions. To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.&lt;/p&gt;
+&lt;p&gt;Gruber wrote a Perl script, &lt;code&gt;Markdown.pl&lt;/code&gt;, which converts marked-up text input to valid, well-formed XHTML or HTML and replaces angle brackets &lt;code&gt;(&amp;lt;, &amp;gt;)&lt;/code&gt; and ampersands &lt;code&gt;(&amp;amp;)&lt;/code&gt; with their corresponding character entity references. It can take the role of a standalone script, a plugin for Blosxom or a Movable Type, or of a text filter for BBEdit.&lt;/p&gt;
+&lt;h2 id=&#34;brise-and-divergenceb&#34;&gt;&lt;b&gt;Rise and divergence&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;As Markdown&amp;rsquo;s popularity grew rapidly, many Markdown implementations appeared, driven mostly by the need for additional features such as tables, footnotes, definition lists,[note 1] and Markdown inside HTML blocks.&lt;/p&gt;
+&lt;p&gt;The behavior of some of these diverged from the reference implementation, as Markdown was only characterised by an informal specification and a Perl implementation for conversion to HTML.&lt;/p&gt;
+&lt;p&gt;At the same time, a number of ambiguities in the informal specification had attracted attention. These issues spurred the creation of tools such as Babelmark to compare the output of various implementations, and an effort by some developers of Markdown parsers for standardisation. However, Gruber has argued that complete standardization would be a mistake: &amp;ldquo;Different sites (and people) have different needs. No one syntax would make all happy.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;bstandardizationb&#34;&gt;&lt;b&gt;Standardization&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;From 2012, a group of people, including Jeff Atwood and John MacFarlane, launched what Atwood characterised as a standardisation effort. A community website now aims to &amp;ldquo;document various tools and resources available to document authors and developers, as well as implementors of the various Markdown implementations&amp;rdquo;. In September 2014, Gruber objected to the usage of &amp;ldquo;Markdown&amp;rdquo; in the name of this effort and it was rebranded as CommonMark. CommonMark.org published several versions of a specification, reference implementation, test suite, and &amp;ldquo;[plans] to announce a finalized 1.0 spec and test suite in 2019.&amp;rdquo; No 1.0 spec has since been released as major issues still remain unsolved. Nonetheless, the following sites and projects have adopted CommonMark: Discourse, GitHub, GitLab, Reddit, Qt, Stack Exchange (Stack Overflow), and Swift.&lt;/p&gt;
+&lt;p&gt;In March 2016 two relevant informational Internet RFCs were published:&lt;/p&gt;
+&lt;p&gt;RFC 7763 introduced MIME type &lt;code&gt;text/markdown&lt;/code&gt;.
+RFC 7764 discussed and registered the variants MultiMarkdown, GitHub Flavored Markdown (GFM), Pandoc, and Markdown Extra among others.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
