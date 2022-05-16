@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Report | Academic</title>
+    <link>https://example.com/tag/report/</link>
+      <atom:link href="https://example.com/tag/report/index.xml" rel="self" type="application/rss+xml" />
+    <description>Report</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 May 2022 14:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Report</title>
+      <link>https://example.com/tag/report/</link>
+    </image>
+    
+    <item>
+      <title>Report</title>
+      <link>https://example.com/post/report/</link>
+      <pubDate>Mon, 16 May 2022 14:30:00 +0000</pubDate>
+      <guid>https://example.com/post/report/</guid>
+      <description>&lt;h2 id=&#34;bthe-title-pageb&#34;&gt;&lt;b&gt;The title page.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The first sheet of work is drawn up strictly according to the pattern that is usually given in the manuals on your subject. It is not just required to specify elements such as the name of the educational institution, the type of work and information about the performer, but also to arrange them in strict accordance with the standards.&lt;/p&gt;
+&lt;h2 id=&#34;breportb&#34;&gt;&lt;b&gt;Report.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The abstract is actually a summary of your entire report and contains a number of statistical information. In it, you need to specify the number of parts, pages of the work, illustrations, appendices, tables, used literary sources and appendices. Here is also a list of the keywords of the work and the actual text of the abstract. The latter implies the main elements of the work from the set goals to the results and recommendations for their implementation. In the practice of universities, the abstract is usually not included in the reports on laboratory work.&lt;/p&gt;
+&lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In the introduction of a typical laboratory work, the goals of the study and the tasks that will help achieve the goals are usually prescribed. At the same time, there are works in which students become real pioneers. Have you ever experienced at least once a feeling of extreme curiosity and impatience during laboratory work? To feel that in just a couple of minutes you will find the answer to a question that no one has ever found an answer to? It is for such studies that a detailed introduction is written with proof of the relevance and novelty of the topic being studied. In order to really conduct research in an area in which, as they say, no human foot has yet set foot, in the introduction you will need to give an assessment of the current
+state of the problem under consideration and justify the need for its solution.&lt;/p&gt;
+&lt;h2 id=&#34;bthe-main-partb&#34;&gt;&lt;b&gt;The main part.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Since different universities and disciplines have their own subtleties of laboratory work, the content of the main part is described in detail in the relevant manuals. It is important that this section of the work reflects its essence, describes the methodology and results of the work done. The main part prescribes the following elements:
+– objectives of the study;
+– tasks that will help you achieve your goals;
+– the progress of the work, which describes the actions performed;
+– other sections provided by methodological materials on the studied discipline&lt;/p&gt;
+&lt;h2 id=&#34;bсonclusionb&#34;&gt;&lt;b&gt;Сonclusion.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In this part of the work, you will need to draw conclusions from the results obtained during the laboratory work. To do this, evaluate how fully the
+tasks have been completed. Other elements may be present in complex works, for example, recommendations for further application of the results of the work carried out.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

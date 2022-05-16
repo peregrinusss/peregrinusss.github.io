@@ -33,6 +33,64 @@
     </item>
     
     <item>
+      <title>Report</title>
+      <link>https://example.com/post/report/</link>
+      <pubDate>Mon, 16 May 2022 14:30:00 +0000</pubDate>
+      <guid>https://example.com/post/report/</guid>
+      <description>&lt;h2 id=&#34;bthe-title-pageb&#34;&gt;&lt;b&gt;The title page.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The first sheet of work is drawn up strictly according to the pattern that is usually given in the manuals on your subject. It is not just required to specify elements such as the name of the educational institution, the type of work and information about the performer, but also to arrange them in strict accordance with the standards.&lt;/p&gt;
+&lt;h2 id=&#34;breportb&#34;&gt;&lt;b&gt;Report.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The abstract is actually a summary of your entire report and contains a number of statistical information. In it, you need to specify the number of parts, pages of the work, illustrations, appendices, tables, used literary sources and appendices. Here is also a list of the keywords of the work and the actual text of the abstract. The latter implies the main elements of the work from the set goals to the results and recommendations for their implementation. In the practice of universities, the abstract is usually not included in the reports on laboratory work.&lt;/p&gt;
+&lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In the introduction of a typical laboratory work, the goals of the study and the tasks that will help achieve the goals are usually prescribed. At the same time, there are works in which students become real pioneers. Have you ever experienced at least once a feeling of extreme curiosity and impatience during laboratory work? To feel that in just a couple of minutes you will find the answer to a question that no one has ever found an answer to? It is for such studies that a detailed introduction is written with proof of the relevance and novelty of the topic being studied. In order to really conduct research in an area in which, as they say, no human foot has yet set foot, in the introduction you will need to give an assessment of the current
+state of the problem under consideration and justify the need for its solution.&lt;/p&gt;
+&lt;h2 id=&#34;bthe-main-partb&#34;&gt;&lt;b&gt;The main part.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Since different universities and disciplines have their own subtleties of laboratory work, the content of the main part is described in detail in the relevant manuals. It is important that this section of the work reflects its essence, describes the methodology and results of the work done. The main part prescribes the following elements:
+– objectives of the study;
+– tasks that will help you achieve your goals;
+– the progress of the work, which describes the actions performed;
+– other sections provided by methodological materials on the studied discipline&lt;/p&gt;
+&lt;h2 id=&#34;bсonclusionb&#34;&gt;&lt;b&gt;Сonclusion.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In this part of the work, you will need to draw conclusions from the results obtained during the laboratory work. To do this, evaluate how fully the
+tasks have been completed. Other elements may be present in complex works, for example, recommendations for further application of the results of the work carried out.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My last week 2</title>
+      <link>https://example.com/post/lastweek2/</link>
+      <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/lastweek2/</guid>
+      <description>&lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Over the past week, I have completed laboratory work No. 5 and No. 6. So I was very productive.&lt;/p&gt;
+&lt;h2 id=&#34;blaboratory-work-no-5b&#34;&gt;&lt;b&gt;Laboratory work No. 5.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The purpose of this laboratory was to familiarize with the Linux file system, its structure, names and contents of directories. Acquisition of practical skills in the use of commands for working with files and directories, process management (and work), checking disk usage and file system maintenance.&lt;/p&gt;
+&lt;p&gt;Tasks that I have completed:
+Follow all the examples given in the theory.
+Various manipulations with files and directories (copying, cutting, renaming, etc.).
+Briefly describe mount, fsck, mkfs,&lt;/p&gt;
+&lt;h2 id=&#34;blaboratory-work-no-6b&#34;&gt;&lt;b&gt;Laboratory work No. 6.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The purpose of this laboratory was to familiarize with the tools for searching files and filtering text data. Acquisition of practical skills: process management (and tasks), disk usage verification and file system maintenance.&lt;/p&gt;
+&lt;p&gt;Tasks that I have completed:
+The study of the find and grep commands and their application in practice.
+Running programs in the background.
+Learning the kill command and applying it to complete the process.
+Using output-input redirection.&lt;/p&gt;
+&lt;h2 id=&#34;bconclusionb&#34;&gt;&lt;b&gt;Conclusion.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;As a result, I became more familiar with the Linux file system, its structure, names and contents of directories, and also acquired practical skills: managing processes (and tasks), checking disk usage and maintaining file systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://example.com/post/markdown1/</link>
       <pubDate>Fri, 13 May 2022 14:30:00 +0000</pubDate>
