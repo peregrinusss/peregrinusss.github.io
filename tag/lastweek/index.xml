@@ -5,12 +5,41 @@
     <link>https://example.com/tag/lastweek/</link>
       <atom:link href="https://example.com/tag/lastweek/index.xml" rel="self" type="application/rss+xml" />
     <description>LastWeek</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>LastWeek</title>
       <link>https://example.com/tag/lastweek/</link>
     </image>
+    
+    <item>
+      <title>My last week 3</title>
+      <link>https://example.com/post/lastweek3/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/lastweek3/</guid>
+      <description>&lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Over the past week, I have completed laboratory work No. 7, No. 8 and No. 9. So I was very productive.&lt;/p&gt;
+&lt;h2 id=&#34;blaboratory-work-no-7b&#34;&gt;&lt;b&gt;Laboratory work No. 7.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The purpose of the work was to master the basic capabilities of the Midnight Commander command shell. Acquisition of practical skills in viewing directories and files; manipulations with them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a result, I:&lt;/strong&gt;
+Mastered the basic capabilities of the Midnight Commander command shell. Acquired the skills of practical work on viewing directories and files; manipulations with them.&lt;/p&gt;
+&lt;h2 id=&#34;blaboratory-work-no-8b&#34;&gt;&lt;b&gt;Laboratory work No. 8.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The purpose of the work was to get acquainted with the Linux operating system. Get practical skills working with the vi editor installed by default in almost all distributions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a result, I:&lt;/strong&gt;
+I got acquainted with the Linux operating system. I got practical skills working with the vi editor installed by default in almost all distributions.&lt;/p&gt;
+&lt;h2 id=&#34;blaboratory-work-no-9b&#34;&gt;&lt;b&gt;Laboratory work No. 9.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The purpose of the work was to get acquainted with the Linux operating system. Get practical skills working with the Emacs editor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a result, I:&lt;/strong&gt;
+I got acquainted with the Linux operating system. Got practical skills working with the Emacs editor.&lt;/p&gt;
+&lt;h2 id=&#34;bconclusionb&#34;&gt;&lt;b&gt;Conclusion.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;As a result, I learned how to use Midnight Commander and the vi and emacs text editors.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My last week 2</title>
