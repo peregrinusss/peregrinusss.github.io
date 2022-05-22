@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LastWeek | Academic</title>
+    <link>https://peregrinusss.github.io/ru/category/lastweek/</link>
+      <atom:link href="https://peregrinusss.github.io/ru/category/lastweek/index.xml" rel="self" type="application/rss+xml" />
+    <description>LastWeek</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peregrinusss.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>LastWeek</title>
+      <link>https://peregrinusss.github.io/ru/category/lastweek/</link>
+    </image>
+    
+    <item>
+      <title>Моя прошедшая неделя 4</title>
+      <link>https://peregrinusss.github.io/ru/post/lastweek4/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peregrinusss.github.io/ru/post/lastweek4/</guid>
+      <description>&lt;h2 id=&#34;bвступлениеb&#34;&gt;&lt;b&gt;Вступление.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;За прошедшую неделю я выполнил лабораторные работы № 10 и № 11. Так что я был очень продук&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-10b&#34;&gt;&lt;b&gt;Лабораторная работа №10&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Изучить основы программирования в оболочке ОС UNIX/Linux. Научиться писать
+небольшие командные файлы.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;В результате я:&lt;/strong&gt;
+Изучил основы программирования в оболочке ОС UNIX/Linux. Научился писать
+небольшие командные файлы.&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-11b&#34;&gt;&lt;b&gt;Лабораторная работа №11&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Изучить основы программирования в оболочке ОС UNIX. Научится писать более
+сложные командные файлы с использованием логических управляющих конструкций
+и циклов.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;В результате я:&lt;/strong&gt;
+Изучил основы программирования в оболочке ОС UNIX. Научился писать более
+сложные командные файлы с использованием логических управляющих конструкций
+и циклов.&lt;/p&gt;
+&lt;h2 id=&#34;bзаключениеb&#34;&gt;&lt;b&gt;Заключение.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;В итоге я изучил основы программирования в оболочке OC UNIX и научился писать командные файлы.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошедшая неделя 3</title>
+      <link>https://peregrinusss.github.io/ru/post/lastweek3/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peregrinusss.github.io/ru/post/lastweek3/</guid>
+      <description>&lt;h2 id=&#34;bвступлениеb&#34;&gt;&lt;b&gt;Вступление.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;За прошедшую неделю я выполнил лабораторные работы № 7, № 8 и № 9. Так что я был очень продуктивен.&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-7b&#34;&gt;&lt;b&gt;Лабораторная работа №7&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Целью работы было освоение основных возможностей командной оболочки Midnight Commander. Приобретение практических навыков просмотра каталогов и файлов; манипуляций с ними.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;В результате я:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Освоил основные возможности командной оболочки Midnight Commander. Приобрел навыки практической работы по просмотру каталогов и файлов; манипуляций с ними.&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-8b&#34;&gt;&lt;b&gt;Лабораторная работа №8&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Целью работы было знакомство с операционной системой Linux. Получите практические навыки работы с редактором vi, установленным по умолчанию практически во всех дистрибутивах.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;В результате я:&lt;/strong&gt;
+Я познакомился с операционной системой Linux. Я получил практические навыки работы с редактором vi, установленным по умолчанию почти во всех дистрибутивах.&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-9b&#34;&gt;&lt;b&gt;Лабораторная работа №9&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Целью работы было знакомство с операционной системой Linux. Получите практические навыки работы с редактором Emacs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;В результате я:&lt;/strong&gt;
+Я познакомился с операционной системой Linux. Получил практические навыки работы с редактором Emacs.&lt;/p&gt;
+&lt;h2 id=&#34;bзаключениеb&#34;&gt;&lt;b&gt;Заключение.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;В результате я научился пользоваться Midnight Commander и текстовыми редакторами vi и emacs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошедшая неделя 2</title>
+      <link>https://peregrinusss.github.io/ru/post/lastweek2/</link>
+      <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peregrinusss.github.io/ru/post/lastweek2/</guid>
+      <description>&lt;h2 id=&#34;bвступлениеb&#34;&gt;&lt;b&gt;Вступление.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;За прошедшую неделю я выполнил лабораторные работы №5 и №6. Так что я был очень продуктивен.&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-5b&#34;&gt;&lt;b&gt;Лабораторная работа №5&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Целью этой лаборатории было ознакомление с файловой системой Linux, ее структурой, именами и содержимым каталогов. Приобретение практических навыков использования команд для работы с файлами и каталогами, управления процессами (и работой), проверки использования диска и обслуживания файловой системы.&lt;/p&gt;
+&lt;p&gt;Задачи, которые я выполнил:
+Следовал всем примерам, приведенным в теории.
+Различные манипуляции с файлами и каталогами (копирование, вырезание, переименование и т.д.).
+Кратко описал mount, fsck, mkfs,&lt;/p&gt;
+&lt;h2 id=&#34;bлабораторная-работа-6b&#34;&gt;&lt;b&gt;Лабораторная работа №6&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Целью этой лаборатории было ознакомление с инструментами поиска файлов и фильтрации текстовых данных. Приобретение практических навыков: управление процессами (и задачами), проверка использования диска и обслуживание файловой системы.&lt;/p&gt;
+&lt;p&gt;Задачи, которые я выполнил:
+Изучение команд find и grep и их применение на практике.
+Запуск программ в фоновом режиме.
+Изучение команды kill и применение ее для завершения процесса.
+Использование перенаправления ввода-вывода.&lt;/p&gt;
+&lt;h2 id=&#34;bзакоючениеb&#34;&gt;&lt;b&gt;Закоючение.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;В результате я лучше познакомился с файловой системой Linux, ее структурой, именами и содержимым каталогов, а также приобрел практические навыки: управление процессами (и задачами), проверка использования диска и обслуживание файловых систем.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя прошедшая неделя</title>
+      <link>https://peregrinusss.github.io/ru/post/lastweek1/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peregrinusss.github.io/ru/post/lastweek1/</guid>
+      <description>&lt;h2 id=&#34;bmy-last-weekb&#34;&gt;&lt;b&gt;My last week.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Это была очень продуктивная неделя.&lt;/p&gt;
+&lt;p&gt;Я съездил в свой родной город, повидался с родственниками и сходил на шашлыки.&lt;/p&gt;
+&lt;p&gt;Я также сделал много лабораторных работ, поэтому у меня было свободное время, чтобы прогуляться во время каникул.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

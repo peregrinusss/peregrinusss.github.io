@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS | Academic</title>
+    <link>https://peregrinusss.github.io/en/tag/js/</link>
+      <atom:link href="https://peregrinusss.github.io/en/tag/js/index.xml" rel="self" type="application/rss+xml" />
+    <description>JS</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 May 2022 14:30:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peregrinusss.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>JS</title>
+      <link>https://peregrinusss.github.io/en/tag/js/</link>
+    </image>
+    
+    <item>
+      <title>Strings in JavaScript</title>
+      <link>https://peregrinusss.github.io/en/post/string-js/</link>
+      <pubDate>Sat, 21 May 2022 14:30:00 +0000</pubDate>
+      <guid>https://peregrinusss.github.io/en/post/string-js/</guid>
+      <description>&lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.&lt;/p&gt;
+&lt;p&gt;As strings are the way we display and work with text, and text is our main way of communicating and understanding through computers, strings are one of the most fundamental concepts of programming to be familiar with.&lt;/p&gt;
+&lt;p&gt;In this article, we’re going to learn how to create and view the output of strings, how to concatenate strings, how to store strings in variables, and the rules of using quotes, apostrophes, and newlines within strings in JavaScript.&lt;/p&gt;
+&lt;h2 id=&#34;bcreating-and-viewing-the-output-of-stringsb&#34;&gt;&lt;b&gt;Creating and Viewing the Output of Strings.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In JavaScript, there are three ways to write a string — they can be written inside single quotes (&amp;rsquo; &amp;lsquo;), double quotes (&amp;quot; &amp;ldquo;), or backticks (&lt;code&gt; &lt;/code&gt;). The type of quote used must match on both sides, however it is possible that all three styles can be used throughout the same script.&lt;/p&gt;
+&lt;p&gt;Strings using double quotes and single quotes are effectively the same. As there is no convention or official preference for single- or double-&lt;/p&gt;
+&lt;h2 id=&#34;bstring-concatenationb&#34;&gt;&lt;b&gt;String Concatenation.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Concatenation means joining two or more strings together to create a new string. In order to concatenate, we use the concatenation operator, represented by a + symbol. The + symbol is also the addition operator when used with arithmetic operations.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const poem = &amp;#34;The Wide Ocean&amp;#34;;
+const author = &amp;#34;Pablo Neruda&amp;#34;;
+
+const favePoem = &amp;#34;My favorite poem is &amp;#34; + poem + &amp;#34; by &amp;#34; + author + &amp;#34;.&amp;#34;;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;bvariables-in-strings-with-template-literalsb&#34;&gt;&lt;b&gt;Variables in Strings with Template Literals.&lt;/b&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;One special feature of the template literal feature is the ability to include expressions and variables within a string. Instead of having to use concatenation, we can use the ${} syntax to insert a variable.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const poem = &amp;#34;The Wide Ocean&amp;#34;;
+const author = &amp;#34;Pablo Neruda&amp;#34;;
+
+const favePoem = `My favorite poem is ${poem} by ${author}.`;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

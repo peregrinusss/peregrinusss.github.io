@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML | Academic</title>
+    <link>https://peregrinusss.github.io/en/tag/html/</link>
+      <atom:link href="https://peregrinusss.github.io/en/tag/html/index.xml" rel="self" type="application/rss+xml" />
+    <description>HTML</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://peregrinusss.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>HTML</title>
+      <link>https://peregrinusss.github.io/en/tag/html/</link>
+    </image>
+    
+    <item>
+      <title>Dart-service site project</title>
+      <link>https://peregrinusss.github.io/en/project/example/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://peregrinusss.github.io/en/project/example/</guid>
+      <description>&lt;p&gt;I made a small one-page website in html and css using the scss preprocessor. Also added some interactive elements using javascript. Also, the site is fully adaptive for absolutely all devices.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
