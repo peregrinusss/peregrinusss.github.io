@@ -41,10 +41,16 @@ body {
           flex-direction: column;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .portfolio {
+    padding-top: 30px;
+  }
+}
 .portfolio__title {
   position: relative;
   z-index: 1;
   font-size: 32px;
+  letter-spacing: 10px;
 }
 .portfolio__inner {
   width: 100%;
@@ -69,6 +75,12 @@ body {
 }
 .portfolio__body::-webkit-scrollbar {
   display: none;
+}
+@media (max-width: 767px) {
+  .portfolio__body {
+    margin-top: 24px;
+    gap: 20px;
+  }
 }
 
 .card {
