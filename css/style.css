@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@import "resources/normalize.css";
+@import "resources/font.css";
+/* stylelint-disable */
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto Mono";
+  min-width: 320px;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.portfolio {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFF;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-items: center;
+}
+.portfolio__title {
+  position: relative;
+  z-index: 1;
+  font-size: 32px;
+}
+.portfolio__inner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.portfolio__body {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  padding: 0 20px;
+  gap: 40px;
+  position: fixed;
+  overflow-y: auto; /* Включение вертикальной прокрутки */
+  max-height: 100vh; /* Максимальная высота блока */
+  width: 100%; /* Ширина блока */
+  z-index: 999; /* Позиционирование блока поверх остальных элементов */
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+@media (max-width: 767px) {
+  .card {
+    border-radius: 10px;
+  }
+}
+.card__body {
+  background: rgba(87, 87, 87, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 20px;
+}
+.card__title {
+  background-image: -webkit-gradient(linear, left top, right top, from(#5cc889), to(#2b8bbb));
+  background-image: linear-gradient(to right, #5cc889, #2b8bbb);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .card__title {
+    font-size: 20px;
+  }
+}
+.card__desc {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .card__desc {
+    font-size: 16px;
+  }
+}
+.card__img {
+  margin-top: 20px;
+  border-radius: 30px;
+}
+@media (max-width: 767px) {
+  .card__img {
+    border-radius: 10px;
+  }
+}
+.card__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #5cc889;
+  padding: 10px 30px;
+  margin-top: 30px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.card__link:hover {
+  background: #5cc889;
+  border-radius: 20px;
+  color: #333333;
+}
+.card__link:hover .card__icon {
+  fill: #333333;
+}
+.card__icon {
+  fill: #FFF;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.clue {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  margin: 0 auto;
+  z-index: 100;
+  color: #fff;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation-name: jump;
+          animation-name: jump;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  gap: 2px;
+}
+.clue svg {
+  fill: #fff;
+  width: 25px;
+  height: 45px;
+}
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}

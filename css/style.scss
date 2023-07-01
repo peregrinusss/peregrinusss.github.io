@@ -1,0 +1,199 @@
+@import "resources/normalize.css";
+@import "resources/font.css";
+@import "breakpoints.scss";
+
+// ----------------------------
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto Mono";
+  min-width: 320px;
+}
+
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.portfolio {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    position: relative;
+    z-index: 1;
+    font-size: 32px;
+  }
+
+  &__inner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  &__body {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    gap: 40px;
+    position: fixed;
+    overflow-y: auto; /* Включение вертикальной прокрутки */
+    max-height: 100vh; /* Максимальная высота блока */
+    width: 100%; /* Ширина блока */
+    z-index: 999; /* Позиционирование блока поверх остальных элементов */
+  }
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  transition: all 0.4s;
+
+  @include width-768 {
+    border-radius: 10px;
+  }
+
+  &__body {
+    background: rgba(87, 87, 87, .1);
+    // background: #333333;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  &__title {
+    background-image: linear-gradient(to right, #5cc889, #2b8bbb);
+    color: transparent;
+    background-clip: text;
+    font-size: 24px;
+    font-weight: 700;
+
+    @include width-768 {
+      font-size: 20px;
+    }
+  }
+
+  &__desc {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+
+    @include width-768 {
+      font-size: 16px;
+    }
+  }
+
+  &__img {
+    margin-top: 20px;
+    border-radius: 30px;
+
+    @include width-768 {
+      border-radius: 10px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5cc889;
+    padding: 10px 30px;
+    margin-top: 30px;
+    transition: all 0.4s;
+
+    &:hover {
+      background: #5cc889;
+      border-radius: 20px;
+      color: #333333;
+
+      & .card__icon {
+        fill: #333333;
+      }
+    }
+  }
+
+  &__icon {
+    fill: #FFF;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    transition: all 0.4s;
+  }
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+
+.clue {
+  // width: 100px;
+  // height: 100px;
+  position: absolute;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  margin: 0 auto;
+  z-index: 100;
+  // background: #5cc889;
+  // color: #5cc889;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // border-radius: 50%;
+  animation-name: jump;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+  gap: 2px;
+
+  & svg {
+    fill: #fff;
+    width: 25px;
+    height: 45px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
