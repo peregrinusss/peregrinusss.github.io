@@ -36,10 +36,15 @@ body {
   flex-direction: column;
   align-items: center;
 
+  @include width-768 {
+    padding-top: 30px;
+  }
+
   &__title {
     position: relative;
     z-index: 1;
     font-size: 32px;
+    letter-spacing: 10px;
   }
 
   &__inner {
@@ -66,7 +71,10 @@ body {
       display: none;
     }
 
-  
+    @include width-768 {
+      margin-top: 24px;
+      gap: 20px;
+    }
   }
 }
 
