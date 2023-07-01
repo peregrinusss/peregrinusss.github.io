@@ -64,6 +64,11 @@ body {
   max-height: 100vh; /* Максимальная высота блока */
   width: 100%; /* Ширина блока */
   z-index: 999; /* Позиционирование блока поверх остальных элементов */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.portfolio__body::-webkit-scrollbar {
+  display: none;
 }
 
 .card {
