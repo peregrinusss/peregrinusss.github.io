@@ -50,6 +50,7 @@ body {
   &__inner {
     width: 100%;
     position: relative;
+    z-index: 2;
   }
 
   &__body {
