@@ -41,7 +41,7 @@ body {
 
   &__title {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     font-size: 32px;
     letter-spacing: 15px;
     margin-left: 10px;
@@ -215,6 +215,8 @@ body {
 }
 
 .loader {
+  position: relative;
+  z-index: 0;
   display: flex;
   justify-content: center;
   align-items: center;
