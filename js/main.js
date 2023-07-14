@@ -4,6 +4,13 @@ particlesJS.load("particles-js", "js/particlesjs-config.json", function () {});
 const projects = [
   {
     id: "",
+    title: `Страница для организаторов проекта "Пакгаузы"`,
+    desc: "Адаптивный лендинг с формой обратной связи и интерактивной схемой-описанием каждой секции пакгаузов",
+    img: "img/10.png",
+    link: "https://peregrinusss.github.io/packhouses/",
+  },
+  {
+    id: "",
     title: "Личный кабинет на благотворительном портале",
     desc: "Лк с публичной частью и админкой. Из интересного при создании частного сбора реализован кроп картинки под определнные пропорции",
     img: "img/9.png",
@@ -67,6 +74,7 @@ projects.forEach((project) => {
   // Создаем элементы и добавляем им классы
   var cardDiv = document.createElement("div");
   cardDiv.classList.add("card");
+  cardDiv.classList.add("js-scroll");
 
   var cardBody = document.createElement("div");
   cardBody.classList.add("card__body");
@@ -113,44 +121,67 @@ projects.forEach((project) => {
   // Добавляем карточку в документ
   cardDiv.appendChild(cardBody);
   cardsWrap.appendChild(cardDiv);
-
-  const projCards = document.querySelectorAll(".card");
-  
-  for (let i = 0; i < projCards.length; i++) {
-    const cardHeight = projCards[i].clientHeight
-
-    if (i < projCards.length - 1) {
-      cardsWrap.addEventListener('scroll', () => {
-        const offsetTop = projCards[i + 1].offsetTop;
-        const scrollTop = cardsWrap.scrollTop;
-  
-        if (window.innerWidth >= 768) {
-          if (scrollTop >= offsetTop - cardHeight * 0.5) {
-            projCards[i].classList.add('hide');
-          } else {
-            projCards[i].classList.remove('hide');
-          }
-        } else {
-          if (scrollTop >= offsetTop - cardHeight * 0.4) {
-            projCards[i].classList.add('hide');
-          } else {
-            projCards[i].classList.remove('hide');
-          }
-        }
-
-        const clue = document.querySelector('.clue')
-        const clueText = clue.querySelector('span')
-        const clueArrow = clue.querySelector('svg')
-
-        if (projCards[projCards.length-2].classList.contains('hide')) {
-          clueText.innerHTML = 'Scroll up'
-          clueArrow.style.transform = 'rotateX(180deg)'
-        } else {
-          clueText.innerHTML = 'Scroll down'
-          clueArrow.style.transform = 'rotateX(0)'
-        }
-      });
-    }
-  }
 });
 //  -------------------- /Card --------------------
+
+// ----------------- Sroll effect ------------------
+const card = document.querySelector('.card')
+card.classList.remove('js-scroll')
+
+const scrollElements = document.querySelectorAll(".js-scroll");
+
+const elementInView = (el, dividend = 1) => {
+  const elementTop = el.getBoundingClientRect().top;
+
+  return (
+    elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) / dividend
+  );
+};
+
+const elementOutofView = (el) => {
+  const elementTop = el.getBoundingClientRect().top;
+
+  return (
+    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+  );
+};
+
+const displayScrollElement = (element) => {
+  element.classList.add("scrolled");
+};
+
+const hideScrollElement = (element) => {
+  element.classList.remove("scrolled");
+};
+
+const handleScrollAnimation = () => {
+  scrollElements.forEach((el, index) => {
+    let lastIndex = scrollElements.length - 1;
+
+    if (index === lastIndex) {
+      const clue = document.querySelector('.clue')
+      const clueText = clue.querySelector('span')
+      const clueArrow = clue.querySelector('svg')
+
+      if (el.classList.contains('scrolled')) {
+        clueText.innerHTML = 'Scroll up';
+        clueArrow.style.transform = 'rotateX(180deg)';
+      } else {
+        clueText.innerHTML = 'Scroll down';
+        clueArrow.style.transform = 'rotateX(0)';
+      }
+    }
+
+    if (elementInView(el, 1.25)) {
+      displayScrollElement(el);
+    } else if (elementOutofView(el)) {
+      hideScrollElement(el)
+    }
+  })
+}
+
+window.addEventListener("scroll", () => { 
+  handleScrollAnimation();
+});
+// ----------------- /Sroll effect ------------------

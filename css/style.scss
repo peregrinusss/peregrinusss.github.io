@@ -6,7 +6,6 @@
 body, html {
   height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 body {
@@ -27,8 +26,8 @@ body {
 
 .portfolio {
   padding-top: 100px;
-  width: 100%;
-  min-height: 100vh;
+  width: fit-content;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   color: #FFF;
@@ -44,12 +43,12 @@ body {
     position: relative;
     z-index: 1;
     font-size: 32px;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
+    margin-left: 10px;
   }
 
   &__inner {
     width: 100%;
-    height: 100vh;
     position: relative;
   }
 
@@ -58,21 +57,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     padding: 0 20px;
-    gap: 40px;
-    position: fixed;
-    overflow-y: auto; /* Включение вертикальной прокрутки */
-    max-height: 100vh; /* Максимальная высота блока */
-    width: 100%; /* Ширина блока */
-    z-index: 999; /* Позиционирование блока поверх остальных элементов */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    gap: 60px;
+    padding-bottom: 50px;
 
     @include width-768 {
-      margin-top: 24px;
+      margin-top: 10px;
       gap: 20px;
     }
   }
@@ -82,11 +71,6 @@ body {
   width: 100%;
   margin: 0 auto;
   max-width: 900px;
-  height: 100vh;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  overflow: hidden;
   transition: all 0.4s;
 
   @include width-768 {
@@ -94,9 +78,9 @@ body {
   }
 
   &__body {
-    background: rgba(87, 87, 87, .1);
-    // background: #333333;
-    backdrop-filter: blur(10px);
+    // background: rgba(87, 87, 87, .1);
+    // backdrop-filter: blur(10px);
+    background: #181818eb;
     border-radius: 30px;
     padding: 20px;
   }
@@ -108,8 +92,12 @@ body {
     font-size: 24px;
     font-weight: 700;
 
-    @include width-768 {
+    @include width-1440 {
       font-size: 20px;
+    }
+
+    @include width-768 {
+      font-size: 18px;
     }
   }
 
@@ -119,8 +107,13 @@ body {
     font-weight: 400;
     margin-top: 20px;
 
-    @include width-768 {
+    @include width-1440 {
       font-size: 16px;
+      margin-top: 10px;
+    }
+
+    @include width-768 {
+      font-size: 14px;
     }
   }
 
@@ -138,11 +131,21 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid #5cc889;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: 30px;
     transition: all 0.4s;
 
     &:hover {
+      background: #5cc889;
+      border-radius: 20px;
+      color: #333333;
+
+      & .card__icon {
+        fill: #333333;
+      }
+    }
+
+    @include width-768 {
       background: #5cc889;
       border-radius: 20px;
       color: #333333;
@@ -169,29 +172,25 @@ body {
 }
 
 .clue {
-  // width: 100px;
-  // height: 100px;
-  position: absolute;
+  position: fixed;
   width: fit-content;
-  left: 0;
-  right: 0;
-  bottom: 50px;
-  margin: 0 auto;
+  left: 40px;
+  bottom: 30px;
   z-index: 100;
-  // background: #5cc889;
-  // color: #5cc889;
   color: #fff;
   font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // border-radius: 50%;
   animation-name: jump;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-
   gap: 2px;
+
+  @include width-1280 {
+    display: none;
+  }
 
   & svg {
     fill: #fff;
@@ -212,4 +211,90 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: -75px;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 6s infinite linear;
+}
+
+.side {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  opacity: 0.8;
+}
+
+.front {
+  transform: translateZ(50px);
+  background: linear-gradient(45deg, #ff4e50, #f9d423);
+}
+
+.back {
+  transform: translateZ(-50px);
+  background: linear-gradient(45deg, #40e0d0, #ff8c00);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(50px);
+  background: linear-gradient(45deg, #800080, #00bfff);
+}
+
+.bottom {
+  transform: rotateX(90deg) translateZ(-50px);
+  background: linear-gradient(45deg, #008000, #ffff00);
+}
+
+.left {
+  transform: rotateY(90deg) translateZ(50px);
+  background: linear-gradient(45deg, #0000ff, #ff1493);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(-50px);
+  background: linear-gradient(45deg, #00ffff, #ff0000);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+  animation: fade-in-bottom 500ms ease-in-out both;
 }
