@@ -4,6 +4,13 @@ particlesJS.load("particles-js", "js/particlesjs-config.json", function () {});
 const projects = [
   {
     id: "",
+    title: `Веб-приложение "Кэшбэк"`,
+    desc: "Приложение для отслеживания кэшбэка за месяц в случае если у вас несколько карт одного или нескольких банков. Можно по поиску найти категорию которая нужна и увидеть на какой карте кэшбэк больше. Также в случае если на одной карте есть кэшбэк одной категории, он суммируется и отображается.",
+    img: "img/11.png",
+    link: "https://peregrinusss.github.io/cashstan/",
+  },
+  {
+    id: "",
     title: `Страница для организаторов проекта "Пакгаузы"`,
     desc: "Адаптивный лендинг с формой обратной связи и интерактивной схемой-описанием каждой секции пакгаузов",
     img: "img/10.png",
@@ -112,11 +119,20 @@ projects.forEach((project) => {
   img.alt = "Превью проекта";
   img.classList.add("card__img");
 
+  var imgShadow = document.createElement("div");
+  imgShadow.classList.add("card__img-shadow");
+  imgShadow.style.backgroundImage = `url(${project.img})`;
+
+  var cardPreview = document.createElement("div");
+  cardPreview.classList.add("card__preview");
+  cardPreview.appendChild(img);
+  cardPreview.appendChild(imgShadow);
+
   // Добавляем элементы внутрь карточки
   cardBody.appendChild(titleH2);
   cardBody.appendChild(descSpan);
   cardBody.appendChild(linkA);
-  cardBody.appendChild(img);
+  cardBody.appendChild(cardPreview);
 
   // Добавляем карточку в документ
   cardDiv.appendChild(cardBody);

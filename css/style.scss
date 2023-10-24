@@ -4,13 +4,15 @@
 
 // ----------------------------
 body, html {
-  height: 100%;
   width: 100%;
 }
 
 body {
   font-family: "Roboto Mono";
   min-width: 320px;
+  background: rgb(10,60,83);
+  background: linear-gradient(90deg, rgb(17, 49, 63) 0%, rgba(0,0,0,1) 49%, rgb(19, 57, 46) 100%);
+  background-attachment: fixed;
 }
 
 
@@ -45,12 +47,20 @@ body {
     font-size: 32px;
     letter-spacing: 15px;
     margin-left: 10px;
+
+    @include width-768 {
+      margin-top: 40px;
+    }
   }
 
   &__inner {
     width: 100%;
     position: relative;
     z-index: 2;
+
+    @include width-768 {
+      margin-top: 30px;
+    }
   }
 
   &__body {
@@ -59,11 +69,12 @@ body {
     grid-template-columns: 1fr;
     padding: 0 20px;
     gap: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
     @include width-768 {
       margin-top: 10px;
-      gap: 20px;
+      gap: 40px;
+      padding-bottom: 80px;
     }
   }
 }
@@ -74,16 +85,14 @@ body {
   max-width: 900px;
   transition: all 0.4s;
 
-  @include width-768 {
-    border-radius: 10px;
-  }
-
   &__body {
-    // background: rgba(87, 87, 87, .1);
-    // backdrop-filter: blur(10px);
     background: #181818eb;
     border-radius: 30px;
     padding: 20px;
+
+    @include width-768 {
+      border-radius: 20px;
+    }
   }
 
   &__title {
@@ -104,12 +113,11 @@ body {
 
   &__desc {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
 
     @include width-1440 {
-      font-size: 16px;
       margin-top: 10px;
     }
 
@@ -118,12 +126,40 @@ body {
     }
   }
 
+  &__preview {
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 40px;
+
+    @include width-768 {
+      margin-top: 30px;
+    }
+  }
+
   &__img {
-    margin-top: 20px;
+    position: relative;
+    z-index: 1;
     border-radius: 30px;
 
     @include width-768 {
-      border-radius: 10px;
+      border-radius: 20px;
+    }
+
+    &-shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-radius: inherit;
+      -webkit-filter: blur(40px);
+      filter: blur(40px);
     }
   }
 
@@ -150,6 +186,7 @@ body {
       background: #5cc889;
       border-radius: 20px;
       color: #333333;
+      margin-top: 20px;
 
       & .card__icon {
         fill: #333333;
